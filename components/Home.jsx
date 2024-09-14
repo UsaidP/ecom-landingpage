@@ -1,3 +1,4 @@
+import { Footer } from "./index";
 import Cards from "./card/Cards";
 import Products from "./products/Products";
 import Slider from "./sidebar/Slider";
@@ -15,6 +16,7 @@ const Home = () => {
       <Cards />
       <Slider images={images} />
       <Products />
+      <Footer />
     </div>
   );
 };

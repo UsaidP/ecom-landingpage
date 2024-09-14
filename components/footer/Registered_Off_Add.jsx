@@ -3,7 +3,9 @@ import React from "react";
 const Registered_Off_Add = () => {
   return (
     <div>
-      <div>Registered Office Address:</div>
+      <div style={{ color: "#606060" }} className='font-semibold py-2'>
+        Registered Office Address:
+      </div>
       <div>
         <p>Flipkart Internet Private Limited, </p>
         <p> Buildings Alyssa, Begonia &amp; </p>
